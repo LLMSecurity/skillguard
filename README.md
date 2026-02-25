@@ -29,9 +29,18 @@ The audit follows a structured pipeline:
 
 ## Installation
 
-### Claude Code / Codex
 ```bash
-claude skill add /path/to/skillguard
+git clone https://github.com/LLMSecurity/skillguard.git
+```
+
+### Claude Code
+```bash
+claude skill add ./skillguard
+```
+
+### OpenClaw
+```bash
+cp -r skillguard ~/.openclaw/workspace/skills/skillguard
 ```
 
 ### Manual
